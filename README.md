@@ -1,5 +1,5 @@
 # Java-Client-Server
-Client-server-App in Java console, a bit buggy but will fix it.
+Client-server-App in Java console.
 This Chat application was written in Java, it allows users to write to each other using the command line.
 The ChatServer class starts the server, listening on a specific port. When a new client gets connected, an instance of UserThread is created to serve that client. Since each connection is processed in a separate thread, the server is able to handle multiple clients at the same time.
 
